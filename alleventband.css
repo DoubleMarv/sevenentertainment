@@ -1,4 +1,4 @@
-.container--fullwidth, .container.main-content:nth-child(1){
+.container--fullwidth, .container.main-content{
     width: 100% !important;
     max-width: 100%;
 }
