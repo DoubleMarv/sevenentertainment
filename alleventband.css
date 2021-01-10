@@ -1,0 +1,58 @@
+.container--fullwidth{
+    width: 100% !important;
+    max-width: 100%;
+}
+
+@media screen and (min-width:768px) {
+.mobilelogo{
+display: none;
+}
+}
+@media screen and (max-width:767px) {
+}
+
+.navbar.eventnav {
+    z-index: 9999 !important;
+}
+
+.navbar.eventnav{
+  border: 0;
+}
+
+.navbar-center{
+    min-width: 10%;
+    margin: 0 auto;
+    text-align: center;
+    position: relative;
+}
+
+.picalternav{
+      opacity: 0;
+}
+
+.navbar-item img {
+    max-height: 10rem;
+}
+
+.navbar-item{
+  margin-bottom: 0;
+   font-family: Playfair Display;
+}
+
+.navbar-item.highlightednavitem{
+  background: #b68f3c;
+  color: #fff;
+}
+
+.centerbacklogo{
+      background-image: url('https://7entertainment.ie/wp-content/uploads/2021/01/logo.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    position: absolute;
+    background-position: center;
+    width: 100%;
+}
+
+.centerbacklogo:hover{
+background-color: transparent !important;
+}
